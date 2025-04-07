@@ -6,7 +6,7 @@
 const std::string command = "Disco test";
 
 StatusCode Upload_test(tsmcAPIClient &client, std::string file_path_1, std::string file_path_2);
-std::string TEST_FILE_PATH = "C:\\Users\\sandbox\\Desktop\\disco_http\\csv_file\\";
+std::string TEST_FILE_PATH = ".\\csv_file\\";
 
 int main(int argc, char* argv[]) {
     std::wstring iniPath = L".\\config.ini";
