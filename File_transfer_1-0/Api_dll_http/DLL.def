@@ -1,0 +1,6 @@
+LIBRARY tsmc_api_dll_http_d.dll;
+EXPORTS
+	INIT   @1;
+	FDCApi   @2;
+	GetVersion   @3;
+	tsmc_ping   @4;
